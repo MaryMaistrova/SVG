@@ -15,6 +15,13 @@ h2 {
   font-family: "Quicksand", serif;
 }
 
+hr {
+  border: none;
+  background-color: #EFEEF3;
+  width: var(--width);
+  height: 1px;
+}
+
 h4 {
   width: var(--width);
   font-size: 16px;
@@ -52,6 +59,10 @@ article {
   width: 290px;
   font-family: "Roboto", serif;
   padding: 40px;
+  border-style: solid;
+  border-color: #EFEEF3;
+  border-width: 2px;
+  border-radius: 6px;
 }
 
 h3 {
@@ -87,6 +98,8 @@ body>footer>.bottom-logo {
   display: flex;
   width: var(--width);
   gap: 10px;
+  margin: auto;
+  padding-bottom: 40px;
 }
 
 .small-logos>svg {
