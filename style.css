@@ -83,6 +83,16 @@ body>footer>.bottom-logo {
   gap: 13px;
 }
 
-svg {
-  
+.small-logos {
+  display: flex;
+  width: var(--width);
+  gap: 10px;
+}
+
+.small-logos>svg {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  padding: 9px;
+  border-radius: 6px;
 }
