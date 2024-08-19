@@ -65,6 +65,14 @@ article {
   border-radius: 6px;
 }
 
+article>svg {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #EFEEF3;
+  border-width: 2px;
+  padding: 13px;
+}
+
 h3 {
   padding-top: 12px;
   font-size: 24px;
@@ -110,19 +118,27 @@ body>footer>.bottom-logo {
   border-radius: 6px;
 }
 
-.services>:nth-child(1)>:hover .jjj {
+article:hover{
+  border-color: #3DB370;
+}
+
+article:hover svg {
+  border-color: #CAEFF2;
+}
+
+article:hover .jjj {
   fill: #E1F4F5;
 }
 
-.services>:nth-child(1)>:first-of-type:hover .kkk {
+article:hover .kkk {
   fill: #CAEFF2;
 }
 
-.services>:nth-child(1)>:first-of-type:hover .mmm {
+article:hover .mmm {
   fill: #3DB370;
 } 
 
-.services>:nth-child(1)>:first-of-type:hover .aaa {
+article:hover .aaa {
   fill: #E8F3FF;
 }
 
