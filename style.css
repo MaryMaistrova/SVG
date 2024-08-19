@@ -109,3 +109,24 @@ body>footer>.bottom-logo {
   padding: 9px;
   border-radius: 6px;
 }
+
+.services>:nth-child(1)>:hover .jjj {
+  fill: #E1F4F5;
+}
+
+.services>:nth-child(1)>:first-of-type:hover .kkk {
+  fill: #CAEFF2;
+}
+
+.services>:nth-child(1)>:first-of-type:hover .mmm {
+  fill: #3DB370;
+} 
+
+.services>:nth-child(1)>:first-of-type:hover .aaa {
+  fill: #E8F3FF;
+}
+
+.try:hover {
+  fill: #16133D;
+}
+
