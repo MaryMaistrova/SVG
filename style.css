@@ -2,7 +2,8 @@
   --width: 1170px;
 }
 
-header, footer {
+header,
+footer {
   width: var(--width);
   display: flex;
   align-items: center;
@@ -118,41 +119,37 @@ body>footer>.bottom-logo {
   border-radius: 6px;
 }
 
-article:hover{
+article:hover {
   border-color: #3DB370;
+  transition-duration: 1000ms;
 }
 
 article:hover svg {
   border-color: #CAEFF2;
+  transition-duration: 1000ms;
 }
 
 article:hover .jjj {
   fill: #E1F4F5;
+  transition-duration: 1000ms;
 }
 
 article:hover .kkk {
   fill: #CAEFF2;
+  transition-duration: 1000ms;
 }
 
 article:hover .mmm {
   fill: #3DB370;
-} 
+  transition-duration: 1000ms;
+}
 
 article:hover .aaa {
   fill: #E8F3FF;
+  transition-duration: 1000ms;
 }
 
-.try:hover {
-  fill: #0D0D0D;
-}
-
-footer svg {
+footer svg:not(:hover) {
   filter: grayscale(100%);
+  transition-duration: 1000ms;
 }
-
-footer svg:hover {
-  filter: none;
-}
-
-
-
